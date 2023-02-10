@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+    .container{
+        max-width: 1517px !important;
+    }
+
+.container{
+    height: 100vh;
+    
+    background-image: url(./umbrella-geacec0b64_1920.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat !important;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 2%;
+    padding-right: 8%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 2%;
+    padding-right: 8%;
+    
+}
+.main h1{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: 'Bree Serif' , serif;
+}
+.container img{
+    border-radius: 50px;
+    height: 3.9rem;
+}
+.name{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: white;
+}
+.main ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+.main ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.main ul li a:hover{
+    color: orangered;
+    transition: .4s;
+
+}
+
+ /* content starts  */
+
+.content{
+    position: absolute;
+    top: 65%;
+    left: 9%;
+    transform: translateY(-50%);
+    font-family: 'Bree Serif' , serif;
+} 
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 2.8rem !important;
+    line-height: 2.8;
+}
+h3{
+    color: white;
+    font-size: 1.2rem !important;
+    margin-bottom: 50px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 1rem !important;
+}
+.newlatter form{
+    width: 380px !important;
+    max-width: 100vw ;
+    /* min-width: 1400px !important; */
+    position: relative;
+}
+.buttons{
+    margin-top: 10px;   
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-image: linear-gradient(to right, blue, #f9004d);
+    font-size: 19px;
+    margin: 0 3px;
+    border: 2px solid #f9004d;
+}
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.newlatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 25px;
+}
+.newlatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+/* <!-- about start  --> */
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: 80vh;
+    width: 35vw;
+    padding: 20px;
+    border-radius: 40%;
+    padding-right: 25px;
+}
+.about-text{
+    width: 550px;
+    padding: 35px;
+    display: "";
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+h2{
+    color: orangered;
+    font-size: 3rem !important;
+    
+}
+h5{
+    /* color: purple; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+p{
+    color: #fcfc;
+    font-size: 1.2rem;
+}
+/* start card */
+.containers{
+    background-image: linear-gradient(to right, #99f2c8,#1f4037);
+    color: white;
+    width: 100%;
+    /* height: 100%; */
+}
+.containers h1{
+    font-size: 1.8rem;
+    color: #000;
+    padding: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+.containers-fluid #open{
+    border: 1px solid black ;
+}
+.carousel-inner{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+/* cards start  */
+.card{
+    background-image: linear-gradient(to bottom, white, orangered);
+    height: 30rem;
+    width: vh;
+    transition: all ease .5s;
+    
+    
+}
+.cardbutton{
+    padding: 9px 10px;
+    border-radius: 2px;
+    color: #f9004d;
+    /* background-color: #f9004d; */
+    font-size: 1rem;
+    margin: 0 3px;
+   
+}
+.card:hover{
+    box-shadow: 10px 10px 15px black;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+.card img{
+    border-radius: 15px;
+    height: 200px;
+}
+.card-body span{
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     
+}
+.card .buttons #look{
+    background-color: #f9004d;
+}
+
+
+/* cv css */
+.resume{
+    padding-top: 2px;
+    padding-left: 80px;
+    justify-content: center;
+    text-align: left;
+    background-image: linear-gradient(to bottom,  white,yellow,orangered);
+
+    
+}
+.resume h2{
+    padding-top: 55px;
+    padding-bottom: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #f9004d;
+    font-size: 35px;
+}
+.personal span{
+    color: black;
+    font-weight: bold;  
+}
+
+.resume .non{
+    color: #000;
+    font-family: 'Bree Serif', serif;
+}
+table, th, td {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.5rem;
+    
+  }
+  .bon{
+    padding: 45px 0px;
+  }
+  .bon.button{
+    margin-top: 10px; 
+     
+}
+.bon button{ 
+    padding: 8px 19px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 19px;
+    margin: 0 3px;
+    border: 2px solid #f9004d;
+}
+.skills{
+    padding-top: 50px;
+    padding-left: 15px;
+    font-family: 'Bree Serif', serif;
+    text-align: left;
+    position: relative;
+    /* background-image: linear-gradient(to right, #0AFFFF,#CFECEC);   */
+}
+.ret{
+    color: orangered!important;
+}
+.skills p{
+    color: black;
+    font-size: 1.0rem;
+}
+
+.con p{
+    padding: 15px;
+    color: #000;
+    font-size: 1.0rem;
+    font-family: 'Bree Serif', serif;
+    
+}
+.use{
+    height: 45px;
+    padding-top: 10px !important;
+    color: orangered !important;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    height: 10px;
+    
+  }
+  .next{
+    width: 22rem;
+    background-color: #521262;
+    border-radius: .5rem;
+    box-shadow: 0 0 2rem;
+    overflow: hidden;
+    position: relative;
+  }
+  .wrapper{
+    margin: 2rem 0;
+    
+  }
+  .text{
+    margin-bottom: .5rem !important;
+    font-size: 1rem !important;
+    color: #fcfcfc !important;
+    text-align: center !important;
+  }
+  footer .foot{
+    padding-top: 0 20px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    text-align: center ;
+    font-size: 1rem;
+    padding: -1px;
+    color: white;
+  }
+  
